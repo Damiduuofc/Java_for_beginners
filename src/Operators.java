@@ -4,7 +4,7 @@
     //int --> billion2
     //long --> 321321321312321321L
     //float , double -->  0.12F
-    // ddouble --> 213.3
+    // double --> 213.3
     //char --> '1' 'k'
     //String --> 'text'
     // logic gates
