@@ -12,7 +12,7 @@ public class Switch {
 				break;
 			case 3:
 				System.out.println("Great job keep it up case 3");
-				break;
+			break;
 			default:
 			System.out.println("eroor");
 			
