@@ -1,7 +1,17 @@
-public class Weather{
+import java.util.Scanner;
+
+public class WeatherNew{
 	public static void main (String[] args){
-		convert(5);
-		days(1);
+		
+		Scanner damidu = new Scanner(System.in);
+		System.out.print("Enter the celcius: ");
+		int celsius = damidu.nextInt();
+		int fahrenheit =  convert(celcius);
+		
+        
+		System.out.print("Enter the Day: ");
+		int days = damidu.nextInt();
+		days(days);
 		
 		System.out.println("It's " + date + " and it's " + txt + ".");
 	}
