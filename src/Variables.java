@@ -7,16 +7,20 @@
     // ddouble --> 213.3
     //char --> '1' 'k'
     //String --> 'text'
+    // 
     
 public class Variables {
         public static void main (String[] args) {
             boolean isRaining = true;
             byte d = 120;
             int a = 12000;
+            
             long m = 2312413355359899999L;
             float f = 0.12F;
             double i = 1.25;
+
             char u = 'a';
+
             String g = "Hello world";
  
             int x = 500;

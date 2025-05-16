@@ -1,4 +1,12 @@
 public class Weather{
+	
+	
+	static int celcius;
+	static String date;
+	static String txt;
+	
+	
+	
 	public static void main (String[] args){
 		convert(5);
 		days(1);
@@ -6,13 +14,6 @@ public class Weather{
 		System.out.println("It's " + date + " and it's " + txt + ".");
 	}
 	
-	
-	
-	
-	
-	static int celcius;
-	static String date;
-	static String txt;
 	
 	
 	
@@ -27,8 +28,6 @@ public class Weather{
 		}
 		return fahrenheit;
 	}	
-	
-	
 	
 	
 	
